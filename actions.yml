@@ -1,0 +1,5 @@
+---
+Open in Safari: open -a Safari %s
+whois: whois %s | bcat
+ping: ping %s | bcat
+Strip queries and copy: echo 'blah' | pbpaste
