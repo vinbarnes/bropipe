@@ -1,0 +1,14 @@
+{
+  "name": "BroPipe",
+  "version": "0.0.1",
+  "permissions": ["management"],
+  "browser_action": {
+    "default_icon": "browser_action_icon.png",
+    "default_title": "BroPipe",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_security_policy": "default-src 'self'; img-src chrome://extension-icon"
+}
